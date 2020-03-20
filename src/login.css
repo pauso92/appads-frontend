@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(https://www.utan.edu.mx/blog/wp-content/uploads/2016/06/administracion.jpg);
+}
+.wrapp{
+    /* border: 1px solid red; */
+    width: 400px;
+    height: 600px;
+    margin-top: 30px;
+    display: inline-block;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(128, 77, 223);
+}
+.w_titulo{
+    /* border: 1px solid red; */
+    height: 50px;
+    margin-top: 150px;
+}
+.titulo{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: orangered;
+    text-align: center;
+}
+.wrapp_user{
+    margin-top: 30px;
+    /* border: 1px solid red; */
+}
+.user{
+    color: orange;
+    font-size: 20px;
+    margin-left: 155px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+.user_register{
+    color: orange;
+    font-size: 14px;
+    margin-left: 158px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+.input{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 40px;
+    width: 300px;
+    height: 20px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+}
+.input:focus{
+    outline: none;
+}
+::placeholder{
+    color: gray;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+.button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: plum;
+    border: orchid;
+    margin-left: 118px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
