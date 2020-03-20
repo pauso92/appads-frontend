@@ -1,0 +1,9 @@
+.tabla2{
+    display: inline-block;
+    box-sizing: content-box;
+    width: 400px;
+    height: 300px;
+    border: solid #5B6DCD 10px;
+    padding: 5p
+
+}
