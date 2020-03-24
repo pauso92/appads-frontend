@@ -1,42 +1,35 @@
 import React from 'react';
+import ReportView from './ReportView'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
-// import './App.css';
 
 import Report_view from './Report_view';
 import Login from './Login'
-import TableItem from './tableItem'
-import ChartsItem from './ChartsItem'
-//import './App.css'
 
 function App() {
   return (
     <div className="App">
-    <Router>
-      <ul>
-        <li>
-          <Link to="/Login">Login</Link>
-        </li>
-        <li>
-          <Link to="/Report_view">Crear reporte</Link>
-        </li>
-        <li>
-          <Link to="/TableItem">TableItem</Link>
-        </li>
-        <li>
-          <Link to="/ChartsItem">ChartsItem</Link>
-        </li>
-      </ul>
-      <Switch>
-        <Route exact path="/Login" component={Login} />
-        <Route exact path="/Report_view" component={Report_view} />
-        <Route exact path="/TableItem" component={TableItem} />
-        <Route exact path="/ChartsItem" component={ChartsItem} />
-      </Switch>
-    </Router>
+      <Router>
+        <ul>
+          <li>
+            <Link to="/Login">Login</Link>
+          </li>
+          <li>
+            <Link to="/Report_view">Crear reporte</Link>
+          </li>
+          <li>
+            <Link to="/summary">Gráficas</Link>
+          </li>
+
+        </ul>
+        <Switch>
+          <Route exact path="/Login" component={Login} />
+          <Route exact path="/Report_view" component={Report_view} />
+          <Route exact path="/summary" component={ReportView} />
+        </Switch>
+      </Router>
       {/* < Report_view/> */}
       {/* <Login /> */}
       {/* <p>hola</p> */}
-      {/* <TableItem /> */}
       {/* <ChartsItem /> */}
     </div>
   );
