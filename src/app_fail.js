@@ -8,6 +8,7 @@ import Login from './Login'
 //import logo from './logo.svg';
 import ChartsItem from './ChartsItem'
 //import './App.css'
+import Registration from './views/Registration'
 
 function App() {
   return (
@@ -15,8 +16,14 @@ function App() {
     <Router>
       <ul>
         <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
           <Link to="/Login">Login</Link>
         </li>
+        <ll>
+          <Link to="/Regitration">Registrate</Link>
+        </ll>
         <li>
           <Link to="/Report_view">Crear reporte</Link>
         </li>
@@ -26,6 +33,7 @@ function App() {
       </ul>
       <Switch>
         <Route exact path="/Login" component={Login} />
+        <Route exact path="/Registrate" component={Registration} />
         <Route exact path="/Report_view" component={Report_view} />
         <Route exact path="/ChartsItem" component={ChartsItem} />
       </Switch>
