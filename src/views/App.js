@@ -1,15 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
-// import logo from './logo.svg';
-// import './App.css';
-
 import Report_view from './Report_view';
 import Login from './Login'
-//import logo from './logo.svg';
-import ChartsItem from '../components/SummaryTable'
-//import './App.css'
-
-import SummaryTable from '../components/SummaryTable';
 import ReportView from './ReportView';
 import Registration from './Registration'
 

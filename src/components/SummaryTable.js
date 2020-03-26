@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from '@testing-library/react'
-import './SummaryTable.css'
+import '../css/SummaryTable.css'
 
 const SummaryTable = () => {
 
