@@ -1,0 +1,58 @@
+.wrap_report{
+    /* border: 1px solid red; */
+    display: flex;
+}
+.link{
+    width: 300px;
+    margin: 20px;
+    height: 40px;
+    /* border: 1px solid red;  */
+}
+.button_report{
+    width: 300px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 10px;
+}
+.wrap_period{
+    /* border: 1px solid red; */
+    width: 800px;
+    display: flex;
+}
+.p_period{
+    width: 200px;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 30px;
+}
+.p_period2{
+    /* border: 1px solid red; */
+    text-align: center;  
+    margin-top: 30px;
+}
+.select_period{
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    margin-top: 20px;
+}
+.campain{
+    /* border: 1px solid red; */
+    width: 1000px;
+    height: 80px;
+    margin-left: 70px;
+    margin-top: 30px;
+    background-color: rgb(189, 184, 184);
+}
+.lebel_campain{
+    /* border: 1px solid red; */
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.checkbox_campain{
+    margin-left: 30px;
+}
+
+
