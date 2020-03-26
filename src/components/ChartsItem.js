@@ -2,7 +2,7 @@ import React from 'react'
 import { Chart } from 'react-charts'
 import './ChartsItem.css' 
 
-function ChartsItem() {
+const ReactChartComponent = () => {
   const data = React.useMemo(
     () => [
       [[1, 10], [2, 15], [3, 10]],
@@ -11,7 +11,7 @@ function ChartsItem() {
     ],
     []
   )
- 
+
   const axes = React.useMemo(
     () => [
       { primary: true, type: 'linear', position: 'bottom' },
@@ -19,23 +19,21 @@ function ChartsItem() {
     ],
     []
   )
- 
+
   return (
     <div>
-          
-    <div class="tabla2"> 
-           <Chart data={data} axes={axes} /> 
-
-    </div>
-    <div class="tabla2"> 
-           <Chart data={data} axes={axes} /> 
-
-    </div>
-    <div class="tabla2"> 
-           <Chart data={data} axes={axes} /> 
-
-    </div>
+      <div class="tabla2">
+        <Chart data={data} axes={axes} />
+      </div>
+      <div class="tabla2">
+        <Chart data={data} axes={axes} />
+      </div>
+      <div class="tabla2">
+        <Chart data={data} axes={axes} />
+      </div>
     </div>
   )
 }
-export default ChartsItem;
+
+
+export default ReactChartComponent
