@@ -1,5 +1,5 @@
 import React from 'react'
-import './SummaryTable.css'
+import '../css/SummaryTable.css'
 
 const SummaryTable = () => {
 
@@ -13,7 +13,7 @@ const SummaryTable = () => {
           <th>Alcance</th>
           <th>Impresiones</th>
           <th>Gasto</th>
-          <th>Reacciones</th>
+          <th>  Reacciones</th>
           <th>CTR(Click To Rate)</th>
           <th>VTR(View To Rate)</th>
           <th>ER(Engagement To Rate)</th>

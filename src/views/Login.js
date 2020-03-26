@@ -1,5 +1,6 @@
 import React from 'react'
-import './login.css'
+import '../css/login.css'
+import { Link } from 'react-router-dom'
 
 class Login extends React.Component {
     render() {
@@ -7,7 +8,7 @@ class Login extends React.Component {
             <>
                 <div className="wrapp">
                     <div className="w_titulo">
-                        <p className="titulo">ERP</p>
+                        <p className="titulo">Inicia Sesión</p>
                     </div>
                     <div className="wrapp_user">
                         <p className="user">Usuario</p>
@@ -15,8 +16,8 @@ class Login extends React.Component {
                         <p className="user">Password</p>
                         <input className="input" placeholder="Ingresa pasword" type="password"></input>
                     </div>
-                    <div>
-                        <a href="/"><p className="user_register">Registrate</p></a>
+                    <div className="div_register">
+                        <Link className="user_registrer" to="/Registration">Registrate</Link>
                     </div>
                     <div className="wrap_button">
                         <button className="button">Ingresa</button>
