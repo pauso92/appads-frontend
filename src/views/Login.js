@@ -6,16 +6,6 @@ class Login extends React.Component {
     render() {
         return (
             <>
-            <div className="navlogin">
-              <h1>AppAds</h1>
-               
-                <div className="alogin">
-                <a className="">Recursos</a>
-                <a className="">¿Quien soy?</a>
-                <a className="">Servicios</a>
-                <a className="">Login</a>
-                </div>
-                </div>
                 <div className="wrapp">
                     <div className="w_titulo">
                         <p className="titulo">Contactanos</p>
