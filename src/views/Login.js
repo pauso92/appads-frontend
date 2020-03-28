@@ -27,7 +27,6 @@ class Login extends React.Component {
             <label><h2>LLeva tu negocio al <br/>
                 siguiente nivel </h2></label>
             </div>
-       
                 <div className="wrapp">
                     <div className="w_titulo">
                         <p className="titulo">Contactanos</p>
