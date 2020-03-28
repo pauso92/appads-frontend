@@ -1,6 +1,6 @@
 import React from 'react'
 import { Chart } from 'react-charts'
-import './ChartsItem.css' 
+import '../css/ChartsItem.css' 
 
 const ReactChartComponent = () => {
   const data = React.useMemo(

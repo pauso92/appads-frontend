@@ -1,5 +1,5 @@
 import React from 'react'
-import './Report_view.css'
+import '../css/Report_view.css'
 
 function Report_view() {
     return (
