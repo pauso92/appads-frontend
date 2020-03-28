@@ -49,14 +49,14 @@ class Login extends React.Component {
 
                     </div>
                     <div className="div_register">
-                        <Link className="user_registrer" to="/Registration">Registrate</Link>
+                        <Link className="user_registrer" to="/Registrate">Registrate</Link>
                     </div>
                     <div className="wrap_button">
                         <button className="button">Ingresa</button>
                     </div>
                     
                 </div>
-                <p>{JSON.stringify(this.state)}</p>
+                {/* <p>{JSON.stringify(this.state)}</p> */}
             </>
         )
         
