@@ -6,7 +6,7 @@ import Login from './Login'
 import '../css/login.css'
 import Registration from './Registration';
 import Cards from './Cards';
-import SummaryTable from '../components/SummaryTable';
+//import SummaryTable from '../components/SummaryTable';
 
 
 class App extends Component {
@@ -27,10 +27,14 @@ class App extends Component {
           <Switch>
             <Route exact path="/Login" component={Login} />
             <Route exact path="/Report_view" component={Report_view} />
-            <Route exact path="/summary" component={ReportView} />
+            <Route exact path="/ReportView" component={ReportView} />
             <Route exact path="/Registrate" component={Registration} />
             <Route exact path="/Cards" component={Cards} />
+<<<<<<< HEAD
+
+=======
             <Route exact path="/ReportView" component={ReportView}/>
+>>>>>>> develop
           </Switch>
         </Router>
       </>
