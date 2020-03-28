@@ -30,7 +30,11 @@ class App extends Component {
             <Route exact path="/ReportView" component={ReportView} />
             <Route exact path="/Registrate" component={Registration} />
             <Route exact path="/Cards" component={Cards} />
+<<<<<<< HEAD
 
+=======
+            <Route exact path="/ReportView" component={ReportView}/>
+>>>>>>> develop
           </Switch>
         </Router>
       </>
