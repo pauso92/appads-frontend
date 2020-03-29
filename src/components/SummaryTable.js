@@ -5,7 +5,7 @@ const SummaryTable = () => {
 
   return (
     <>
-    
+    <div className="grid-container-table">
       <table>
         <tr>
           <th>Fecha</th>
@@ -58,6 +58,7 @@ const SummaryTable = () => {
           <td> 5.5% </td>
         </tr>
       </table>
+    </div>
     </>
   )
 
