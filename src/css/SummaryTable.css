@@ -1,9 +1,13 @@
-table{
+.grid-container-table{
+    display: grid;
+    background-color: darkcyan;
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 88%;
-}
+    align-content: center;
+    padding: 10px;
 
+
+}
 td, th{
 
     border: 1px solid #dddd;
@@ -14,8 +18,11 @@ td, th{
 tr:nth-child(even){
     background-color: #dddddd;
 }
+@media only screen and (max-width:600px ){
+    
+.grid-container{
+    background-color: green;
 
-nav{
-    background-color: orangered;
-    color: white;
+ }
+
 }
