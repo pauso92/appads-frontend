@@ -14,6 +14,22 @@ body{
   display: flex;
 }
 
+<<<<<<< HEAD
+=======
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+>>>>>>> 12cd7d790970e6897652985d69f96de606d8d3c3
 .detail {
   background: #999;
   height: 100vh;

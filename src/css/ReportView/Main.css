@@ -1,0 +1,15 @@
+.MainDiv {
+    position: relative;
+    background-color: #FBF7F7;
+ 
+}
+
+.Tables{
+}
+
+.Charts{
+
+    position: relative;
+    top: 100px;
+    font-size: 18px;
+}

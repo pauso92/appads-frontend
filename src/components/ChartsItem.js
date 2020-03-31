@@ -31,6 +31,9 @@ const ReactChartComponent = () => {
       <div class="tabla2">
         <Chart data={data} axes={axes} />
       </div>
+      <div class="tabla2">
+        <Chart data={data} axes={axes} />
+      </div>      
     </div>
   )
 }

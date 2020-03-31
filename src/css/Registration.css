@@ -1,7 +1,11 @@
 
 .wrap{
     display: flex;
+<<<<<<< HEAD:src/css/Registration.css
     align-items: center;
+=======
+    align-items:center;
+>>>>>>> 12cd7d790970e6897652985d69f96de606d8d3c3:src/css/Registration.css
 }
 
 .wrapp_registration{
