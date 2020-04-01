@@ -15,21 +15,23 @@ class App extends Component {
     return (
       <>
         <Router>
-        <div className="navlogin">
-                    <h1>AppAds</h1>
-                    <div className="alogin">
-                        <Link to="/">Home</Link>
-                        <Link to="/">Nosotros</Link>
-                        <Link to="/Login">Login</Link>
-                        <Link to="/Registrate">Registrate</Link>
-                    </div>
-                </div>
+          <div className="navlogin">
+            <h1>AppAds</h1>
+            <div className="alogin">
+              <Link to="/login">Login</Link>
+              <Link to="/registrate">Registrate</Link>
+              <Link to="/">Home</Link>
+              <Link to="/cards">Cards</Link>
+              <Link to="/report-view">Report_view</Link>
+              <Link to="/summary">Sumamary</Link>
+            </div>
+          </div>
           <Switch>
-            <Route exact path="/Login" component={Login} />
-            <Route exact path="/Report_view" component={Report_view} />
-            <Route exact path="/ReportView" component={ReportView} />
-            <Route exact path="/Registrate" component={Registration} />
-            <Route exact path="/Cards" component={Cards} />
+            <Route exact path="/login" component={Login} />
+            <Route exact path="/registrate" component={Registration} />
+            <Route exact path="/cards" component={Cards} />
+            <Route exact path="/report-view" component={Report_view} />
+            <Route exact path="/summary" component={ReportView} />
           </Switch>
         </Router>
       </>
