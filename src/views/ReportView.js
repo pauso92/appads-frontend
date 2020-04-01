@@ -14,7 +14,7 @@ const ReportView = () => {
       <SummaryTable />
     </div>
     <div className="Charts">
-      <ChartsItem />
+    {/*<ChartsItem />*/}
     </div>
   
 
