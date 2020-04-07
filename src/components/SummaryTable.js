@@ -6,12 +6,10 @@ import { gql } from 'apollo-boost'
 const GET_CAMPAIGN_SUMMARY = gql`
 {
   getCampaignSummary{
+    name
     img
     day
     reports_end
-    campaing_name
-    adset_name
-    ad_name
     reach
     impressions
     interactions
@@ -39,12 +37,10 @@ const SummaryTable = () => {
       <table>
        <thead>
          <tr>
-         <th>Imágen</th>
+         <th>Nombre</th>
+         <th>image</th>
          <th>Día</th>
          <th>Fin del informe</th>
-         <th>Nombre de la campaña</th>
-         <th>Grupo de Anuncios</th>
-         <th>Anuncio</th>
          <th>Alcance</th>
          <th>Impresiones</th>
          <th>Interacciones</th>
@@ -61,12 +57,10 @@ const SummaryTable = () => {
        <tbody>
          { data.getCampaignSummary.map((item, idx) =>(
            <tr key={idx}>
+            <td>{item.name}</td>
              <td><img width="90px" src={item.img}></img></td>
              <td>{item.day}</td>
              <td>{item.reports_end}</td>
-             <td>{item.campaing_name}</td>
-             <td>{item.adset_name}</td>
-             <td>{item.ad_name}</td>
              <td>{item.reach}</td>
              <td>{item.impressions}</td>
              <td>{item.interactions}</td>
@@ -77,7 +71,7 @@ const SummaryTable = () => {
               <td>{item.plays3sg}</td>            
              <td>{item.vcr}</td> 
              <td>{item.vtr}</td> 
-             <td>{item.er}</td>
+         <td>{item.er}</td>
            </tr>
          ))
          }

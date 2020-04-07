@@ -13,8 +13,9 @@ const ReportView = () => {
     <div className="Tables">
       <SummaryTable />
     </div>
-    {/*<div className="Charts">
-    </div>*/}
+   <div className="Charts">
+     <ChartsItem />
+    </div>
   
 
       </div>
